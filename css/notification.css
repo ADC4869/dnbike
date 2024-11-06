@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header .activity-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+header .tab-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header .tab {
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--charcoal-color);
+}
+
+header .tab.active {
+    color: var(--orange-color);
+    border-bottom: 2px solid var(--orange-color);
+}
+
+main .content {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+main .content.active {
+    display: block;
+}
+
+main .message-icon {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+main .text {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main .subtext {
+    font-size: 14px;
+    color: #666;
+}
+
+main .reload {
+    margin-top: 20px;
+    color: var(--orange-color);
+    cursor: pointer;
+}

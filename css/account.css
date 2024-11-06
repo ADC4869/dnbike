@@ -1,0 +1,90 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.profile-page {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+/* Header Section Styling */
+header {
+    background: linear-gradient(45deg, #ff9e2f, #ff6e6e);
+}
+
+header .header-content {
+    width: 100%;
+    max-width: 450px;
+    margin-left: 0;
+}
+
+header .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .profile-info h2 {
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+header .profile-info p {
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+header .badge {
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+/* Main Content Section Styling */
+main {
+    padding: 20px;
+}
+
+main .account-section, .help-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+main .account-section h3, .help-section h3 {
+    color: var(--charcoal-color);
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main .item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+main .item:last-child {
+    border-bottom: none;
+}
+
+main .icon {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #666;
+}
+
+main .arrow {
+    font-size: 30px;
+    color: var(--black-color);
+}

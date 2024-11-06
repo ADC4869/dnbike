@@ -1,0 +1,43 @@
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Footer icons and labels */
+footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #999;
+    font-size: 12px;
+}
+
+footer .footer-item i {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Active item styling */
+footer .footer-item.active {
+    color: #ff7a00; /* Orange color for active item */
+}
+
+/* Icon hover effect */
+footer .footer-item:hover {
+    color: #ff7a00;
+}

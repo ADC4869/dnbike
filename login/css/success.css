@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+}
+
+/* Logo styling */
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--azureblue-color);
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--black-color);
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* Responsive text and button resizing */
+@media (min-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        padding: 12px 24px;
+        font-size: 1.2rem;
+    }
+}
