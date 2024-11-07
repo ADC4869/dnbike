@@ -22,24 +22,55 @@
     <link rel="stylesheet" href="./css/global.css">
 </head>
 <body>
-    <div class="location-container">
-        <!-- Điểm đón -->
-        <div class="location-input" style="border: 2px solid #7ae4d2;">
-            <i class="fas fa-dot-circle icon"></i>
-            <input type="text" id="pickup" placeholder="Điểm đón">
-            <button class="remove-btn"><i class="fas fa-times"></i></button>
+    <header>
+        <div class="location-container">
+            <!-- Điểm đón -->
+            <div class="location-input" style="border: 2px solid #7ae4d2;">
+                <i class="fas fa-dot-circle icon"></i>
+                <input type="text" id="pickup" placeholder="Điểm đón">
+                <button class="remove-btn"><i class="fas fa-times"></i></button>
+            </div>
+
+            <!-- Điểm đến -->
+            <div class="location-input">
+                <i class="fas fa-map-marker-alt icon" style="color: #ffa500;"></i>
+                <input type="text" id="destination" placeholder="Điểm đến">
+                <button class="remove-btn"><i class="fas fa-plus"></i></button>
+            </div>
+
+            <!-- Nút xác nhận -->
+            <button class="confirm-button" onclick="confirmLocation()">XÁC NHẬN ĐỊA ĐIỂM</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Service Info Section -->
+        <div class="service-info">
+            <img src="./img/car.png" alt="Service Icon">
+            <div>
+                <p class="mb-0">DN Bike Lái Xe Hộ <br> <small>5 KM</small></p>
+            </div>
+            <div class="text-end">
+                <p class="mb-0 text-danger">14,000đ</p>
+            </div>
         </div>
 
-        <!-- Điểm đến -->
-        <div class="location-input">
-            <i class="fas fa-map-marker-alt icon" style="color: #ffa500;"></i>
-            <input type="text" id="destination" placeholder="Điểm đến">
-            <button class="remove-btn"><i class="fas fa-plus"></i></button>
+        <!-- Buttons Section -->
+        <div class="buttons-container">
+            <button class="btn btn-custom offer-btn"  onclick="window.location.href='endow.php'">Ưu đãi</button>
+            <button class="btn btn-custom book-btn">Đặt Xe</button>
         </div>
 
-        <!-- Nút xác nhận -->
-        <button class="confirm-button" onclick="confirmLocation()">XÁC NHẬN ĐỊA ĐIỂM</button>
-    </div>
+        <!-- Driver Info Section -->
+        <div class="driver-info">
+            <img src="./img/avt.jpg" alt="Driver Image">
+            <div class="driver-details">
+                <p class="mb-0">Phạm Văn Hùng <i class="fas fa-star text-warning"></i> 5.0</p>
+                <p class="mb-0">50H-283.63 - VFE34 • Xanh</p>
+                <p class="mb-0 text-danger">Tài Xế Sẽ Đến Sau 3 phút</p>
+            </div>
+        </div>
+    </main>
 
     <?php include 'back.php' ?>
 </body>
