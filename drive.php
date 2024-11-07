@@ -61,7 +61,6 @@
         </div>
     </main>
 
-    
     <?php include 'back.php' ?>
 </body>
 </html>
