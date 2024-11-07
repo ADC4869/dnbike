@@ -57,6 +57,16 @@
                 <input type="radio" name="promo" onclick="toggleRadio(this)">
             </div>
         </div>
+
+        <div class="promo-item">
+            <img src="./img/car.png" alt="GrabBike">
+            <div class="promo-details">
+                <h5>Lần đầu sử dụng | Giảm đến 60%</h5>
+            </div>
+            <div class="promo-radio">
+                <input type="radio" name="promo" onclick="toggleRadio(this)">
+            </div>
+        </div>
     </main>
 </body>
 <script src="./js/endow.js"></script>
