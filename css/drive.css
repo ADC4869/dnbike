@@ -1,0 +1,90 @@
+header .map-container {
+    height: 400px;
+    margin-bottom: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+/* Service Info Styling */
+main .service-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 2px solid #7ae4d2;
+}
+
+main .service-info img {
+    height: 40px;
+}
+
+/* Buttons Container Styling */
+main .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+main .btn-custom {
+    width: 45%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+main .offer-btn {
+    background-color: var(--coralred-color);
+    color: var(--white-color);
+}
+
+main .offer-btn:hover {
+    background-color: var(--coralred-color);
+    color: var(--white-color);
+}
+
+main .book-btn {
+    background-color: var(--mediumturquoise-color);
+    color: var(--white-color);
+}
+
+main .book-btn:hover {
+    background-color: var(--mediumturquoise-color);
+    color: var(--white-color);
+}
+
+/* Driver Info Styling */
+main .driver-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+main .driver-info img {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+main .driver-details {
+    flex-grow: 1;
+}
+
+main .driver-details .mb-0 {
+    justify-self: right;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+    main .map-container {
+      height: 400px;
+    }
+}

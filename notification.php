@@ -19,6 +19,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/notification.css">
+    <link rel="stylesheet" href="./css/global.css">
 </head>
 <body>
     <header>
