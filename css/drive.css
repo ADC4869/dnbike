@@ -19,6 +19,12 @@ main .service-info {
     border: 2px solid #7ae4d2;
 }
 
+main .service-info .mb-0 {
+    text-align: center;
+    color: var(--orange-color);
+    font-weight: bold;
+}
+
 main .service-info img {
     height: 40px;
 }

@@ -55,7 +55,7 @@
             <div class="driver-details">
                 <p class="mb-0">Phạm Văn Hùng <i class="fas fa-star text-warning"></i> 5.0</p>
                 <p class="mb-0">50H-283.63 - VFE34 • Xanh</p>
-                <p class="mb-0 text-danger">Tài Xế Sẽ Đến Sau 3'</p>
+                <p class="mb-0 text-danger">Tài Xế Sẽ Đến Sau 3 phút</p>
             </div>
         </div>
     </main>
