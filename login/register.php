@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../bootstrap/dist/js/bootstrap.bundle.min.js">
     <!-- Css -->
     <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="../css/back.css">
     <link rel="stylesheet" href="../css/global.css">
 </head>
 <body>
@@ -43,6 +44,8 @@
         
         <button class="btn-submit" onclick="submitForm()">TẠO TÀI KHOẢN</button>
     </main>
+
+    <?php include '../back.php' ?>
 </body>
 <script src="./js/register.js"></script>
 </html>

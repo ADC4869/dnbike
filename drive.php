@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./bootstrap/dist/js/bootstrap.bundle.min.js">
     <!-- Css -->
     <link rel="stylesheet" href="./css/drive.css">
+    <link rel="stylesheet" href="./css/back.css">
     <link rel="stylesheet" href="./css/global.css">
 </head>
 <body>
@@ -60,11 +61,7 @@
         </div>
     </main>
 
-    <footer>
-        <!-- Back Button in the Footer -->
-        <button class="back-btn" onclick="history.back()">
-            <i class="fas fa-arrow-left"></i>
-        </button>
-    </footer>
+    
+    <?php include 'back.php' ?>
 </body>
 </html>
