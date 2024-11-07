@@ -39,6 +39,13 @@
         <!-- Nút xác nhận -->
         <button class="confirm-button" onclick="confirmLocation()">XÁC NHẬN ĐỊA ĐIỂM</button>
     </div>
+
+    <footer>
+        <!-- Back Button in the Footer -->
+        <button class="back-btn" onclick="history.back()">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+    </footer>
 </body>
 <script src="./js/location.js"></script>
 </html>
