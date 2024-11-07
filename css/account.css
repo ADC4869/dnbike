@@ -1,6 +1,5 @@
 body, html {
     font-family: Arial, sans-serif;
-    background-color: #f6f6f6;
 }
 
 .profile-page {
@@ -81,7 +80,7 @@ main .item:last-child {
 main .icon {
     font-size: 18px;
     margin-right: 10px;
-    color: #666;
+    color: var(--dimgray-color);
 }
 
 main .arrow {
