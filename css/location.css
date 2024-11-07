@@ -50,6 +50,7 @@ header .confirm-button {
 
 main {
     padding: 1rem;
+    display: none;
 }
 
 /* Service Info Styling */

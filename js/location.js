@@ -5,8 +5,8 @@ function confirmLocation() {
 
     // Kiểm tra nếu cả hai ô đều không rỗng
     if (pickup !== "" && destination !== "") {
-        // Nếu đã nhập đủ, chuyển đến trang mới
-        window.location.href = "./drive.php"; // Thay "newpage.html" bằng trang bạn muốn chuyển đến
+        // Nếu đã nhập đủ, hiển thị phần main
+        document.querySelector("main").style.display = "block";
     } else {
         // Nếu chưa nhập đủ, hiển thị cảnh báo
         alert("Vui lòng nhập đầy đủ Điểm đón và Điểm đến.");
