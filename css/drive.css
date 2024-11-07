@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 header .map-container {
     height: 400px;
     margin-bottom: 1rem;
