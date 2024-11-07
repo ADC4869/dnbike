@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -20px;
+    max-width: 960px;
+}
+
+main .promo-input {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+main .promo-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main .promo-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+main .promo-details {
+    flex-grow: 1;
+}
+
+main .promo-details h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+main .promo-radio {
+    margin-left: auto;
+}

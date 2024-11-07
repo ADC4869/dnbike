@@ -76,7 +76,7 @@
 
             <!-- Mã ưu đãi, tích xu -->
             <div class="promo-section">
-                <a href="#">
+                <a href="endow.php">
                     <div>
                         <i class="fas fa-tag"></i>
                         <p>46</p>
