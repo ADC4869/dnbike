@@ -52,7 +52,7 @@
                     </div>
                 </a>
 
-                <a href="#">
+                <a href="location.php">
                     <div>
                         <i class="fas fa-motorcycle"></i>
                         <p>Xe máy</p>

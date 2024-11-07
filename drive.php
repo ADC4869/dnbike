@@ -36,7 +36,7 @@
         <div class="service-info">
             <img src="./img/car.png" alt="Service Icon">
             <div>
-                <p class="mb-0">DIDI24H Lái Xe Hộ <br> <small>5 KM</small></p>
+                <p class="mb-0">DN Bike Lái Xe Hộ <br> <small>5 KM</small></p>
             </div>
             <div class="text-end">
                 <p class="mb-0 text-danger">14,000đ</p>
