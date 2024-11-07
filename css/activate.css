@@ -25,7 +25,7 @@ header .tab {
     align-items: center;
     padding: 10px;
     font-size: 0.9rem;
-    color: #666;
+    color: var(--dimgray-color);
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -73,7 +73,7 @@ main .order-details {
     justify-content: space-between;
     align-items: center;
     font-size: 0.85rem;
-    color: #666;
+    color: var(--dimgray-color);
     margin-top: 10px;
 }
 
@@ -91,7 +91,7 @@ main .order-info i {
 
 main .order-info span {
     font-size: 0.85rem;
-    color: #666;
+    color: var(--dimgray-color);
 }
 
 main .order-info .order-value {

@@ -24,12 +24,12 @@ main {
 }
 
 main .promo-input {
-    background-color: #f1f1f1;
+    background-color: var(--lightgray-color);
     border: none;
     padding: 10px;
     width: 100%;
     border-radius: 5px;
-    color: #666;
+    color: var(--dimgray-color);
     margin-bottom: 15px;
 }
 
