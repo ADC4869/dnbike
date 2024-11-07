@@ -50,9 +50,11 @@ header .confirm-button {
 
 main {
     padding: 1rem;
-    display: none;
 }
 
+main .service-info, .buttons-container, .driver-info {
+    display: none; 
+}
 
 /* Service Info Styling */
 main .service-info {

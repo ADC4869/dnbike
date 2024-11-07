@@ -1,14 +1,25 @@
 function confirmLocation() {
-    // Lấy giá trị từ các ô input
     const pickup = document.getElementById("pickup").value.trim();
     const destination = document.getElementById("destination").value.trim();
 
-    // Kiểm tra nếu cả hai ô đều không rỗng
-    if (pickup !== "" && destination !== "") {
-        // Nếu đã nhập đủ, hiển thị phần main
-        document.querySelector("main").style.display = "block";
-    } else {
-        // Nếu chưa nhập đủ, hiển thị cảnh báo
+    if (pickup === "" && destination === "") {
         alert("Vui lòng nhập đầy đủ Điểm đón và Điểm đến.");
+    } else if (pickup === "") {
+        alert("Vui lòng nhập Điểm đón.");
+    } else if (destination === "") {
+        alert("Vui lòng nhập Điểm đến.");
+    } else {
+        // Show service info immediately
+        document.getElementById("serviceInfo").style.display = "flex";
+
+        // Show buttons container after 1-second delay
+        setTimeout(() => {
+            document.getElementById("buttonsContainer").style.display = "flex";
+        }, 1000);
     }
+}
+
+function bookRide() {
+    // Show driver info only when the "Đặt Xe" button is clicked
+    document.getElementById("driverInfo").style.display = "flex";
 }

@@ -45,7 +45,7 @@
 
     <main>
         <!-- Service Info Section -->
-        <div class="service-info">
+        <div class="service-info" id="serviceInfo" style="display: none;">
             <img src="./img/car.png" alt="Service Icon">
             <div>
                 <p class="mb-0">DN Bike Lái Xe Hộ <br> <small>5 KM</small></p>
@@ -56,13 +56,13 @@
         </div>
 
         <!-- Buttons Section -->
-        <div class="buttons-container">
+        <div class="buttons-container" id="buttonsContainer" style="display: none;">
             <button class="btn btn-custom offer-btn"  onclick="window.location.href='endow.php'">Ưu đãi</button>
-            <button class="btn btn-custom book-btn">Đặt Xe</button>
+            <button class="btn btn-custom book-btn" onclick="bookRide()">Đặt Xe</button>
         </div>
 
         <!-- Driver Info Section -->
-        <div class="driver-info">
+        <div class="driver-info" id="driverInfo" style="display: none;">
             <img src="./img/avt.jpg" alt="Driver Image">
             <div class="driver-details">
                 <p class="mb-0">Phạm Văn Hùng <i class="fas fa-star text-warning"></i> 5.0</p>
