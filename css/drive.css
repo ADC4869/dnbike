@@ -5,6 +5,7 @@ body {
 header .map-container {
     height: 400px;
     margin-bottom: 1rem;
+    visibility: hidden;
 }
 
 main {
