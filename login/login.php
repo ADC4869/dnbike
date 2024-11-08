@@ -37,12 +37,17 @@
                     </span>
                     <input type="text" id="username" class="form-control" placeholder="TÊN ĐĂNG NHẬP">
                 </div>
+
                 <div class="input-container mb-3">
                     <span class="input-icon">
                         <i class="fas fa-lock"></i>
                     </span>
                     <input type="password" id="password" class="form-control" placeholder="MẬT KHẨU">
+                    <span class="toggle-password" onclick="togglePassword()">
+                        <i class="fas fa-eye" id="toggleIcon"></i>
+                    </span>
                 </div>
+
                 <button type="submit" class="login-btn">ĐĂNG NHẬP</button>
             </form>
 
@@ -56,4 +61,20 @@
     <div class="bottom-wave"></div>
 </body>
 <script src="./js/login.js"></script>
+<script>
+function togglePassword() {
+    const passwordInput = document.getElementById("password");
+    const toggleIcon = document.getElementById("toggleIcon");
+
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleIcon.classList.remove("fa-eye-slash");
+        toggleIcon.classList.add("fa-eye");
+    } else {
+        passwordInput.type = "password";
+        toggleIcon.classList.remove("fa-eye");
+        toggleIcon.classList.add("fa-eye-slash");
+    }
+}
+</script>
 </html>

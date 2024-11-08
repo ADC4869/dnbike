@@ -33,12 +33,12 @@
         <main>
             <form class="login-form mt-4" action="success-password.php" method="POST">
                 <div class="input-container mb-3">
-                    <span class="input-icon">
-                        Nhập mật khẩu mới
+                    <span class="input-icon">Nhập mật khẩu mới</span>
+                    <input type="password" name="new-password" id="new-password" class="form-control"
+                        placeholder="NHẬP MẬT KHẨU" pattern=".{6,}" title="Mật khẩu phải chứa ít nhất 6 ký tự" required>
+                    <span class="toggle-password">
+                        <i class="fas fa-eye" id="toggle-icon"></i>
                     </span>
-                    <input type="text" name="new-password" class="form-control" placeholder="NHẬP MẬT KHẨU" pattern=".{6,}" 
-                           title="Mật khẩu phải chứa ít nhất 6 ký tự" 
-                           required>
                 </div>
 
                 <button type="submit" class="login-btn">XÁC NHẬN</button>
@@ -48,4 +48,5 @@
 
     <?php include '../back.php' ?>
 </body>
+<script src="./js/dongmo.js"></script>
 </html>
