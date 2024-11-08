@@ -32,22 +32,22 @@ header .cards {
 }
 
 header .cards .content img {
-    width: 100%; /* Đặt chiều rộng ảnh bằng chiều rộng của phần tử cha */
-    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử cha */
-    height: auto; /* Giữ tỷ lệ ảnh */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 5px;
-    object-fit: cover; /* Đảm bảo ảnh được cắt phù hợp nếu kích thước không khớp */
+    object-fit: cover;
 }
 
 /* Cân nhắc thêm các media queries để điều chỉnh cho các kích thước cụ thể */
-@media (max-width: 768px) { /* Màn hình máy tính bảng */
+@media (max-width: 768px) {
     header .container {
         width: 100%;
         padding: 15px;
     }
 }
 
-@media (max-width: 576px) { /* Màn hình điện thoại */
+@media (max-width: 576px) {
     header .container {
         width: 100%;
         padding: 10px;
@@ -57,11 +57,64 @@ header .cards .content img {
 /* Footer text */
 header .footer {
     margin-top: 20px;
-    color: #666;
+    color: var(--dimgray-color);
     font-size: 0.9em;
 }
 
 header .footer span {
     font-size: 20px;
     font-weight: bold;
+}
+
+main .food-card {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+main .food-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+main .discount-tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: var(--amber-color);
+    color: var(--black-color);
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+main .food-content {
+    padding: 10px;
+}
+
+main .food-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--charcoal-color);
+    margin-bottom: 4px;
+}
+
+main .food-details {
+    font-size: 12px;
+    color: #777;
+}
+
+main .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px 0;
+}
+
+main .scroll-container::-webkit-scrollbar {
+    display: none;
 }
