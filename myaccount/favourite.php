@@ -47,13 +47,13 @@
         <div class="container my-4">
             <h5 class="fw-bold">Lựa chọn đặt món hàng đầu</h5>
             <div class="scroll-container">
-
                 <div class="food-card position-relative">
                     <img src="../img/bun.jpg" alt="Bún Bò Gốc Huế">
                     <span class="discount-tag">Giảm 50%</span>
                     <div class="food-content">
                         <p class="food-title">Bún Bò Gốc Huế OMI</p>
-                        <p class="food-details">1.6 km <span class="text-warning"><i class="fas fa-star"></i> 4.7</span>
+                        <p class="food-details">1.6 km 
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.7</span>
                         </p>
                         <p class="text-success">Lên đến 50%</p>
                     </div>
@@ -64,7 +64,8 @@
                     <span class="discount-tag">Giảm 20%</span>
                     <div class="food-content">
                         <p class="food-title">BÚN MĂNG VỊT - BÚN CHẢ GIÒ ĐÌ LOAN</p>
-                        <p class="food-details">2.5 km <span class="text-warning"><i class="fas fa-star"></i> 4.2</span>
+                        <p class="food-details">2.5 km 
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.2</span>
                         </p>
                         <p class="text-success">Giảm 20%</p>
                     </div>
@@ -75,7 +76,8 @@
                     <span class="discount-tag">Giảm 10%</span>
                     <div class="food-content">
                         <p class="food-title">Cơm Tấm Sườn Bì Chả</p>
-                        <p class="food-details">5.0 km <span class="text-warning"><i class="fas fa-star"></i> 4.5</span>
+                        <p class="food-details">5.0 km 
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.5</span>
                         </p>
                         <p class="text-success">Lên đến 10%</p>
                     </div>
