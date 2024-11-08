@@ -23,7 +23,7 @@
 <body>
     <div class="container">
         <img src="../img/dnbike.png" alt="Logo" class="logo">
-        <p class="subtitle">Bạn đã đăng ký tài khoản thành công. Hãy đăng nhập để sử dụng dịch vụ.</p>
+        <p class="subtitle">Bạn đã cập nhật mật khẩu thành công. Hãy đăng nhập để sử dụng dịch vụ.</p>
         <a href="login.php" class="button">Đăng nhập</a>
     </div>
 

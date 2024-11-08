@@ -15,7 +15,7 @@ header .login-logo img {
 
 header .login-title {
     color: var(--orange-color);
-    font-size: 25px;
+    font-size: 27px;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -25,7 +25,7 @@ main .input-container {
 }
 
 main .input-icon {
-    font-size: 22px;
+    font-size: 18px;
     float: left;
     color: var(--black-color);
     margin-bottom: 5px;
@@ -46,20 +46,10 @@ main .login-btn {
     background-color: var(--orange-color);
     color: var(--black-color);
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     margin-top: 20px;
-}
-
-main .login-links a {
-    color: var(--charcoal-color);
-    text-decoration: none;
-    font-size: 14px;
-}
-
-main .login-links a:hover {
-    text-decoration: underline;
 }
 
 .bottom-wave {
