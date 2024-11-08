@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+header .container {
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header style */
+header .header {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header .header i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Đảm bảo hình ảnh trong thẻ cards tự co giãn theo kích thước màn hình */
+header .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .cards .content img {
+    width: 100%; /* Đặt chiều rộng ảnh bằng chiều rộng của phần tử cha */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử cha */
+    height: auto; /* Giữ tỷ lệ ảnh */
+    margin-bottom: 5px;
+    object-fit: cover; /* Đảm bảo ảnh được cắt phù hợp nếu kích thước không khớp */
+}
+
+/* Cân nhắc thêm các media queries để điều chỉnh cho các kích thước cụ thể */
+@media (max-width: 768px) { /* Màn hình máy tính bảng */
+    header .container {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) { /* Màn hình điện thoại */
+    header .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Footer text */
+header .footer {
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+header .footer span {
+    font-size: 20px;
+    font-weight: bold;
+}

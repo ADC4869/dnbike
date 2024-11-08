@@ -19,6 +19,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/account.css">
+    <link rel="stylesheet" href="./css/global.css">
 </head>
 <body>
 <div class="profile-page">
@@ -43,13 +44,15 @@
             <div class="account-section mb-3">
                 <h3 class="h6 mb-3">Tài khoản của tôi</h3>
                 <ul class="list-unstyled">
-                    <li class="item d-flex align-items-center justify-content-between py-2">
-                        <div class="d-flex align-items-center">
-                            <i class="icon fas fa-heart me-2"></i>
-                            <span>Yêu thích</span>
-                        </div>
-                        <span class="arrow">›</span>
-                    </li>
+                    <a href="./myaccount/favourite.php">
+                        <li class="item d-flex align-items-center justify-content-between py-2">
+                            <div class="d-flex align-items-center">
+                                <i class="icon fas fa-heart me-2"></i>
+                                <span>Yêu thích</span>
+                            </div>
+                            <span class="arrow">›</span>
+                        </li>
+                    </a>
 
                     <li class="item d-flex align-items-center justify-content-between py-2">
                         <div class="d-flex align-items-center">
@@ -83,13 +86,15 @@
                         <span class="arrow">›</span>
                     </li>
 
-                    <li class="item d-flex align-items-center justify-content-between py-2">
-                        <div class="d-flex align-items-center">
-                            <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>
-                            <span>Đăng xuất</span>
-                        </div>
-                        <span class="arrow">›</span>
-                    </li>
+                    <a href="./login/login.php">
+                        <li class="item d-flex align-items-center justify-content-between py-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>
+                                <span>Đăng xuất</span>
+                            </div>
+                            <span class="arrow">›</span>
+                        </li>
+                    </a>
                 </ul>
             </div>
 

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./bootstrap/dist/js/bootstrap.bundle.min.js">
     <!-- Css -->
     <link rel="stylesheet" href="./css/activate.css">
+    <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
