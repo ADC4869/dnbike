@@ -50,6 +50,7 @@
                         </div>
                         <span class="arrow">›</span>
                     </li>
+
                     <li class="item d-flex align-items-center justify-content-between py-2">
                         <div class="d-flex align-items-center">
                             <i class="icon fas fa-map-marker-alt me-2"></i>
@@ -57,6 +58,7 @@
                         </div>
                         <span class="arrow">›</span>
                     </li>
+
                     <li class="item d-flex align-items-center justify-content-between py-2">
                         <div class="d-flex align-items-center">
                             <i class="icon fas fa-credit-card me-2"></i>
@@ -64,6 +66,7 @@
                         </div>
                         <span class="arrow">›</span>
                     </li>
+
                     <li class="item d-flex align-items-center justify-content-between py-2">
                         <div class="d-flex align-items-center">
                             <i class="icon fas fa-gift me-2"></i>
@@ -71,10 +74,19 @@
                         </div>
                         <span class="arrow">›</span>
                     </li>
+
                     <li class="item d-flex align-items-center justify-content-between py-2">
                         <div class="d-flex align-items-center">
                             <i class="icon fas fa-user-friends me-2"></i>
                             <span>Giới thiệu VILL</span>
+                        </div>
+                        <span class="arrow">›</span>
+                    </li>
+
+                    <li class="item d-flex align-items-center justify-content-between py-2">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>
+                            <span>Đăng xuất</span>
                         </div>
                         <span class="arrow">›</span>
                     </li>
