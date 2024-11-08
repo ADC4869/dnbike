@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -66,12 +68,83 @@
                     </div>
                 </a>
 
-                <a href="#">
+                <a href="#" onclick="togglePopup()" class="icon-btn">
                     <div>
                         <i class="fas fa-th-large"></i>
                         <p>Tất cả</p>
                     </div>
                 </a>
+            </div>
+
+            <!-- Popup content -->
+            <div id="popup" class="popup">
+            <span class="close-btn" onclick="togglePopup()">&times;</span>
+                <div class="popup-header">Dành cho bạn</div>
+                <div class="service-list">
+                    <div class="service-item">
+                        <img src="./img/giaohang.png" alt="Giao hàng">
+                        <p>Giao hàng</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/dicho.png" alt="Đi chợ">
+                        <p>Đi chợ</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/qua.png" alt="Quà tặng">
+                        <p>Quà tặng</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/hoivien.png" alt="Gói Hội Viên">
+                        <p>Gói Hội Viên</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="popup-header">Tất cả dịch vụ</div>
+                <div class="service-list">
+                    <div class="service-item">
+                        <img src="./img/nhahang.png" alt="Voucher Nhà Hàng">
+                        <p>Voucher Nhà Hàng</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/baohiem.png" alt="Bảo hiểm">
+                        <p>Bảo hiểm</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/xemay.png" alt="Xe máy">
+                        <p>Xe máy</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/oto.png" alt="Ô tô">
+                        <p>Ô tô</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/doan.png" alt="Đồ ăn">
+                        <p>Đồ ăn</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/thuthach.png" alt="Thử thách">
+                        <p>Thử thách</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/rewards.png" alt="Rewards">
+                        <p>Rewards</p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="./img/khachsan.png" alt="Khách sạn">
+                        <p>Khách sạn</p>
+                    </div>
+                    <!-- Add more services as needed -->
+                </div>
             </div>
 
             <!-- Mã ưu đãi, tích xu -->
@@ -83,7 +156,7 @@
                         <p>Mã ưu đãi</p>
                     </div>
                 </a>
-                
+
                 <a href="#">
                     <div>
                         <i class="fas fa-gift"></i>
@@ -265,4 +338,9 @@
     <!-- Footer -->
     <?php include 'footer.php' ?>
 </body>
+<script>
+    function togglePopup() {
+        document.getElementById("popup").classList.toggle("active");
+    }
+</script>
 </html>

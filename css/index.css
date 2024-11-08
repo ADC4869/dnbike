@@ -269,3 +269,71 @@ main .promo-card-time i {
     }
 }
 
+/* Pop-up styling */
+main .popup {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    transition: bottom 0.4s ease;
+    z-index: 1000;
+    padding: 20px;
+}
+
+main .popup.active {
+    bottom: 0;
+    border-radius: 25px;
+}
+
+main .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+main .popup-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+main .icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+main .icon-btn i {
+    font-size: 1.5rem;
+}
+
+main .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+main .service-list p {
+    font-size: 14px;
+}
+
+main .service-item {
+    width: 20%;
+    text-align: center;
+}
+
+main .service-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+    main .service-item {
+        width: 25%;
+    }
+}
