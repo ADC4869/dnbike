@@ -82,6 +82,18 @@
                         <p class="text-success">Lên đến 10%</p>
                     </div>
                 </div>
+
+                <div class="food-card position-relative">
+                    <img src="../img/hutieu.jpg" alt="Hủ Tiếu Mì">
+                    <span class="discount-tag">Giảm 40%</span>
+                    <div class="food-content">
+                        <p class="food-title">Hủ tiếu mì thập cẩm</p>
+                        <p class="food-details">3.0 km 
+                            <span class="text-warning"><i class="fas fa-star"></i> 4.8</span>
+                        </p>
+                        <p class="text-success">Lên đến 40%</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
