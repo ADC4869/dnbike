@@ -152,12 +152,132 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="voucher" class="tab-content">
-                <p>Nội dung cho tab Voucher Nhà Hàng.</p>
-            </div>
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="mb-0">Ưu đãi chớp nhoáng!</h5>
+                    <span class="time-badge">12:34</span>
+                    <i class="fas fa-arrow-right arrow-icon"></i>
+                </div>
+                <p class="text-muted">Ưu đãi giờ vàng, đặt ngay kẻo lỡ!</p>
+
+                <!-- Scrollable container for sale cards -->
+                <div class="scroll-container1">
+                    <div class="sale-card d-flex">
+                        <img src="./img/sale1.jpg" alt="Sale Image" class="sale-image">
+                        <div class="sale-info">
+                            <h6>Trà Sữa Gong Ting - Lý Thường Kiệt</h6>
+                            <p class="discount-price">Giảm 20.000₫</p>
+                            <p class="text-muted">Đặt ít nhất 50.000₫</p>
+                        </div>
+                    </div>
+
+                    <div class="sale-card d-flex">
+                        <img src="./img/lau.jpg" alt="Sale Image" class="sale-image">
+                        <div class="sale-info">
+                            <h6>Lẩu Gà Lá É 78</h6>
+                            <p class="discount-price">Giảm 25.000₫</p>
+                            <p class="text-muted">Đặt ít nhất 25.000₫</p>
+                        </div>
+                    </div>
+
+                    <div class="sale-card d-flex">
+                        <img src="./img/ga.png" alt="Sale Image" class="sale-image">
+                        <div class="sale-info">
+                            <h6>Gà Ủ Muối - Chân Gà Sốt Thái</h6>
+                            <p class="discount-price">Giảm 20.000₫</p>
+                            <p class="text-muted">Đặt ít nhất 50.000₫</p>
+                        </div>
+                    </div>
+                    <!-- Add more .sale-card items as needed -->
+                </div>
+
+                <!-- First Food Item -->
+                <div class="d-flex food-item">
+                    <img src="./img/maycha.jpg" alt="Trà Sữa MayCha">
+                    <div class="food-info">
+                        <h6>Trà Sữa MayCha</h6>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-star text-warning me-1"></i>
+                            <span>4.4 (325)</span>
+                            <span class="text-muted ms-2">• $$$$ • Trà Sữa</span>
+                        </div>
+                        <p class="mb-1">
+                            <span class="discount-badge">Miễn phí <span class="price">13.000₫</span></span>
+                            <span class="text-muted">• 15 phút trở lên</span>
+                        </p>
+                        <div class="d-flex">
+                            <button class="btn btn-light offer-button">Giảm 20%</button>
+                            <button class="btn btn-light offer-button ms-2">Giảm 21.000₫</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex food-item">
+                    <img src="./img/banhuot.webp" alt="Bánh ướt">
+                    <div class="food-info">
+                        <h6>Bánh ướt, bánh cuốn nóng - Phú Lâm</h6>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-star text-warning me-1"></i>
+                            <span>4.7 (731)</span>
+                            <span class="text-muted ms-2">• $$$$ • Bánh Việt Nam</span>
+                        </div>
+                        <p class="mb-1">
+                            <span class="discount-badge">Miễn phí <span class="price">13.000₫</span></span>
+                            <span class="text-muted">• 20 phút trở lên</span>
+                        </p>
+                        <div class="d-flex">
+                            <button class="btn btn-light offer-button">Giảm 20%</button>
+                            <button class="btn btn-light offer-button ms-2">Giảm 14.000₫</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex food-item">
+                    <img src="./img/dai.png" alt="DAI LOU">
+                    <div class="food-info">
+                        <h6>DAI LOU Thiểm Tây Bánh</h6>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-star text-warning me-1"></i>
+                            <span>4.7 (60)</span>
+                            <span class="text-muted ms-2">• $$$$ • Món Quốc Tế</span>
+                        </div>
+                        <p class="mb-1">
+                            <span class="discount-badge">Miễn phí <span class="price">13.000₫</span></span>
+                            <span class="text-muted">• 25 phút trở lên</span>
+                        </p>
+                        <div class="d-flex">
+                            <button class="btn btn-light offer-button">Giảm 20%</button>
+                            <button class="btn btn-light offer-button ms-2">Nhận tặng kèm!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex food-item">
+                    <img src="./img/phobo.jpg" alt="DAI LOU">
+                    <div class="food-info">
+                        <h6>Phở Bò - Phở Cuốn Gia Lan</h6>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-star text-warning me-1"></i>
+                            <span>4.7 (392)</span>
+                            <span class="text-muted ms-2">• $$$$ • Bún - Phở - Cháo</span>
+                        </div>
+                        <p class="mb-1">
+                            <span class="discount-badge">Miễn phí <span class="price">13.000₫</span></span>
+                            <span class="text-muted">• 15 phút trở lên</span>
+                        </p>
+                        <div class="d-flex">
+                            <button class="btn btn-light offer-button">Giảm 20%</button>
+                            <button class="btn btn-light offer-button ms-2">Giảm 14.000₫</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="voucher" class="tab-content">
+                    <p>Nội dung cho tab Voucher Nhà Hàng.</p>
+                </div>
     </main>
 </body>
 <script src="./js/food.js"></script>
 <script src="./js/back.js"></script>
+
 </html>

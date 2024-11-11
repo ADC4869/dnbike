@@ -191,3 +191,130 @@ main .scroll-item {
     width: 400px; /* Adjust based on how wide you want each item to be */
     border-radius: 8px;
 }
+
+main .sale-card {
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 350px; /* Adjust width for better display */
+}
+
+main .mb-0 {
+    font-weight: bold;
+}
+
+main .sale-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+main .sale-info h6 {
+    font-weight: bold;
+    margin: 0;
+}
+
+main .text-muted {
+    justify-self: left;
+
+}
+
+main .sale-info {
+    text-align: left;
+}
+
+main .sale-info .discount-price {
+    color: orange;
+    font-weight: bold;
+}
+
+main .time-badge {
+    background-color: #f0f0f5;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: relative;
+    left: 28%;
+    
+}
+
+main .arrow-icon {
+    font-size: 20px;
+    color: #333;
+}
+
+main .scroll-container1 {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+main .scroll-container1::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+@media (max-width: 768px) {
+    main .time-badge {
+        position: relative;
+        left: 10%;
+    }
+}
+
+main .food-item {
+    background: var(--white-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .food-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+main .food-info {
+    margin-left: 15px;
+}
+
+main .food-info h6 {
+    justify-self: left;
+
+}
+
+main .discount-badge {
+    color: #ff5722;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+main .price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 5px;
+}
+
+main .badge-discount {
+    font-size: 0.9em;
+    font-weight: bold;
+    background: #ff5722;
+    color: var(--white-color);
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin-right: 10px;
+}
+
+main .offer-button {
+    border-radius: 4px;
+    font-size: 0.9em;
+    padding: 5px 10px;
+}
+
+main .btn-light {
+    border: 1px solid #ddd;
+}
