@@ -152,7 +152,7 @@ main .card-custom img {
 main .description {
     font-size: 1rem;
     font-weight: bold;
-    color: #333;
+    color: var(--charcoal-color);
     top: -20px;
     position: relative;
     justify-self: left;
@@ -228,13 +228,13 @@ main .sale-info {
 }
 
 main .sale-info .discount-price {
-    color: orange;
+    color: var(--orange1-color);
     font-weight: bold;
 }
 
 main .time-badge {
     background-color: #f0f0f5;
-    color: #333;
+    color: var(--charcoal-color);
     border-radius: 5px;
     padding: 5px 10px;
     position: relative;
@@ -244,7 +244,7 @@ main .time-badge {
 
 main .arrow-icon {
     font-size: 20px;
-    color: #333;
+    color: var(--charcoal-color);
 }
 
 main .scroll-container1 {
@@ -288,21 +288,21 @@ main .food-info h6 {
 }
 
 main .discount-badge {
-    color: #ff5722;
+    color: var(--deeporange-color);
     font-weight: bold;
     margin-right: 10px;
 }
 
 main .price {
     text-decoration: line-through;
-    color: gray;
+    color: var(--gray-color);
     margin-right: 5px;
 }
 
 main .badge-discount {
     font-size: 0.9em;
     font-weight: bold;
-    background: #ff5722;
+    background: var(--deeporange-color);
     color: var(--white-color);
     border-radius: 4px;
     padding: 3px 6px;
