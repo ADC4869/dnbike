@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+header .header {
+    background: linear-gradient(90deg, #2ac7d8, #7ce0a4);
+    padding: 15px;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+header .header .top-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header .top-row i {
+    font-size: 1.2em;
+    color: var(--white-color);
+    margin: 0 10px;
+}
+
+header .header .address {
+    font-size: 0.9em;
+    font-weight: bold;
+    position: relative;
+    right: 30%;
+}
+
+header .header .search-bar {
+    width: 100%;
+    margin: 10px 0;
+}
+
+header .header .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1em;
+    border: 1px solid #D3D3D3;
+}
+
+@media (max-width: 768px) {
+    header .header .address {
+    position: relative;
+    right: 2%;
+    }
+}
+
+main .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+main .buttons .btn {
+    padding: 10px 15px;
+      border-radius: 25px;
+      font-size: 0.9em;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      transition: background-color 0.3s, color 0.3s;
+}
+
+main .btn-delivery, .btn-voucher {
+    background-color: rgb(233, 246, 242);;
+    color: var(--vividorange-color);
+}
+
+main .btn-active {
+    background-color: #1a3b34 !important;
+    color: var(--white-color) !important;
+  }
+
+main .tab-content {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .tab-content.active {
+    display: block;
+}
+
+main .category-icons {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+}
+
+main .category-icons::-webkit-scrollbar {
+    display: none;
+}
+
+main .text-center {
+    flex: 0 0 auto;
+    text-align: center;
+    scroll-snap-align: start; 
+}
+
+main .category-icons img {
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+main .category-text {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds an ellipsis (...) for overflow text */
+    max-width: 70px;
+}
+
+main .promo-card {
+    border-radius: 15px;
+    padding: 15px;
+    color: var(--black-color);
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+main .promo-nearby { background-color: var(--pastelpink-color); }
+.promo-half-price { background-color: var(--mintgreen-color); }
+.promo-flash-sale { background-color: var(--palegreen-color); }
+.promo-grab-discount { background-color: var(--peachpuff-color); }
+.promo-card img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    border-radius: 50%;
+}
+
+main .card-custom img {
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+main .description {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    top: -20px;
+    position: relative;
+    justify-self: left;
+}
+
+main .text-center p {
+    justify-self: left;
+    font-size: 16px;
+}
+
+main .header {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+main .header .fa-arrow-right {
+    margin-left: 4px;
+    font-size: 1.2rem;
+}
+
+main .scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0;
+    gap: 10px;
+    scrollbar-width: none;
+}
+
+main .scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+main .scroll-item {
+    flex-shrink: 0;
+    width: 400px; /* Adjust based on how wide you want each item to be */
+    border-radius: 8px;
+}

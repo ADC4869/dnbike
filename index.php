@@ -40,7 +40,7 @@
             </div>
 
             <div class="icon-section">
-                <a href="#">
+                <a href="food.php">
                     <div>
                         <i class="fas fa-utensils"></i>
                         <p>Đồ ăn</p>
