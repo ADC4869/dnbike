@@ -275,6 +275,7 @@
                 <div id="voucher" class="tab-content">
                     <p>Nội dung cho tab Voucher Nhà Hàng.</p>
                 </div>
+            </div>
     </main>
 </body>
 <script src="./js/food.js"></script>
